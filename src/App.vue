@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <b-navbar fixed="top" type="dark" variant="dark">
+    <b-navbar class="qa-navbar-top" fixed="top" type="dark" variant="dark">
       <b-navbar-brand to="/home">home</b-navbar-brand>
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav class="ml-auto">
@@ -31,12 +31,17 @@ export default {
 </script>
 
 <style>
+body, html {
+  height: 100%;
+}
+
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  padding-top: 100px;
+  height: 100%;
 }
 </style>
