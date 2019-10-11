@@ -3,7 +3,7 @@ const convertCurrency = function convertCurrencyFn(from, currency, exchangeRate)
   return Math.round(intermediate * 100) / 100;
 };
 
-const exchangeUrl = 'https://api.exchangeratesapi.io/latest?base=ZAR';
+const exchangeUrl = 'http://localhost:8080/rates';
 
 const getRates = async function getRates() {
   const response = await fetch(exchangeUrl);
