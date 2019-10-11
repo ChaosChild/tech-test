@@ -3,11 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "api": "python ./services/currencyservice/manage.py runserver 127.0.0.1:8000",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "cy:open": "cypress open",
     "cy:run": "cypress run"
+
   },
   "dependencies": {
     "bootstrap": "^4.3.1",
