@@ -4,8 +4,8 @@ module.exports = {
       '/': {
         target: 'http://localhost:8000',
         ws: false,
-        changeOrigin: true
-      }
-    }
-  }
-}
+        changeOrigin: true,
+      },
+    },
+  },
+};
